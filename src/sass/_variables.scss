@@ -32,7 +32,7 @@ $agile-board-customize:         true !default;
 //== Colors
 //
 
-$blue:                          #fff !default;
+$blue:                          #bd93f9 !default;
 $indigo:                        #4e65e5 !default;
 $purple:                        #000 !default;
 $pink:                          #eb5286 !default;
@@ -558,8 +558,8 @@ $top-menu-link:                 shade($brand-primary, 100) !default;
 $top-menu-link-hover:           shade($brand-primary, 50) !default;
 
 $header-bg:                     $brand-primary !default;
-$header-text:                   $brand-text !default;
-$header-link:                   $brand-text !default;
+$header-text:                   $black !default;
+$header-link:                   $black !default;
 $header-root:                   $brand-accent !default;
 $header-padding-vertical:       10px !default;
 $header-padding-horizontal:     $padding-side !default;
@@ -649,7 +649,7 @@ $sidebar-padding-vertical:      $padding-base-vertical !default;
 $sidebar-padding-horizontal:    $padding-side !default;
 $sidebar-width-computed:        $sidebar-width - ($sidebar-padding-horizontal * 2) - 1px !default;
 $sidebar-link-hover-bg:         $gray-200 !default;
-$sidebar-link-hover-text:       $gray-900 !default;
+$sidebar-link-hover-text:       $black !default;
 $sidebar-link-active-bg:        $body-bg !default;
 $sidebar-link-active-border:    $gray-400 !default;
 $sidebar-link-active-side:      $red !default;
