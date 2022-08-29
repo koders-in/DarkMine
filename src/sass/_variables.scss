@@ -464,7 +464,7 @@ $btn-padding-horizontal:        12px !default;
 $btn-padding-horizontal-small:  8px !default;
 
 $btn-link-color:                $black !default;
-$btn-link-bg:                   $body-bg !default;
+$btn-link-bg:                   red !default;
 $btn-link-border:               $body-bg !default;
 
 $btn-default-color:             $black !default;
@@ -591,7 +591,7 @@ $logo-position-vertical:        center !default;
 $logo-space:                    floor($header-padding-vertical * .5) !default;
 
 $main-menu-bg:                  $gray-100 !default;
-$main-menu-bg-hover:            $black !default;
+$main-menu-bg-hover:            transparent !default;
 $main-menu-bg-active:           transparent !default;
 $main-menu-link:                $black !default;
 $main-menu-link-active:         $black !default;
