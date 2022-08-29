@@ -32,7 +32,7 @@ $agile-board-customize:         true !default;
 //== Colors
 //
 
-$blue:                          gray !default;
+$blue:                          #fff !default;
 $indigo:                        #4e65e5 !default;
 $purple:                        #000 !default;
 $pink:                          #eb5286 !default;
@@ -110,8 +110,8 @@ $state-danger:                  shade($red, 100) !default;
 $body-bg:                       #282a36 !default;
 $text-color:                    $white !default;
 
-$link-color:                    shade($blue, 600) !default;
-$link-hover-color:              $blue !default;
+$link-color:                    #f8f8f2 !default;
+$link-hover-color:              $white !default;
 $link-hover-decoration:         underline !default;
 $link-closed-decoration:        line-through !default;
 $link-color-issue-closed:       $gray-700 !default;
