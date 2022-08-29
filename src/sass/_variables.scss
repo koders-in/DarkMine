@@ -463,7 +463,7 @@ $btn-padding-vertical:          3px !default;
 $btn-padding-horizontal:        12px !default;
 $btn-padding-horizontal-small:  8px !default;
 
-$btn-link-color:                $link-color !default;
+$btn-link-color:                $black !default;
 $btn-link-bg:                   $body-bg !default;
 $btn-link-border:               $body-bg !default;
 
@@ -553,9 +553,9 @@ $check-list-offset-top:         $input-padding-vertical + 1px;
 //
 
 $top-menu-bg:                   shade($brand-primary, 700) !default;
-$top-menu-text:                 shade($brand-primary, 100) !default;
-$top-menu-link:                 shade($brand-primary, 100) !default;
-$top-menu-link-hover:           shade($brand-primary, 50) !default;
+$top-menu-text:                 $black !default;
+$top-menu-link:                 shade($black, 100) !default;
+$top-menu-link-hover:           shade($black, 50) !default;
 
 $header-bg:                     $brand-primary !default;
 $header-text:                   $white !default;
