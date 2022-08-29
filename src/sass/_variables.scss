@@ -516,9 +516,9 @@ $highlight-link:                mix($yellow, $link-color) !default;
 //
 
 $input-bg:                      $white !default;
-$input-bg-disabled:             $gray-300 !default;
+$input-bg-disabled:             #f8f8f2 !default;
 
-$input-color:                   $text-color !default;
+$input-color:                   $black !default;
 $input-border:                  $gray-500 !default;
 
 $input-border-radius:           $border-radius-small !default;
