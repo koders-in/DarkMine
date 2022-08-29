@@ -30,3 +30,4 @@ volumes:
   redmine_data:
     driver: local
 # /opt/bitnami/redmine/public/themes
+# cd Darkmine
