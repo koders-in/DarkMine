@@ -591,7 +591,7 @@ $logo-position-vertical:        center !default;
 $logo-space:                    floor($header-padding-vertical * .5) !default;
 
 $main-menu-bg:                  $gray-100 !default;
-$main-menu-bg-hover:            transparent !default;
+$main-menu-bg-hover:            #44475a !default;
 $main-menu-bg-active:           transparent !default;
 $main-menu-link:                $black !default;
 $main-menu-link-active:         $black !default;
@@ -610,19 +610,19 @@ $main-menu-dropdown-bg:         $gray-50;
 $pagination-padding-vertical:   $btn-padding-vertical !default;
 $pagination-padding-horizontal: 10px !default;
 
-$pagination-color:              $gray-900 !default;
+$pagination-color:              $black !default;
 $pagination-bg:                 $gray-200 !default;
 $pagination-border:             $gray-200 !default;
 
 $pagination-hover-color:        $gray-900 !default;
-$pagination-hover-bg:           $gray-300 !default;
+$pagination-hover-bg:           #44475a !default;
 $pagination-hover-border:       $gray-300 !default;
 
 $pagination-active-color:       $brand-text !default;
 $pagination-active-bg:          $brand-primary !default;
 $pagination-active-border:      $brand-primary !default;
 
-$pagination-inactive-color:     $gray-500 !default;
+$pagination-inactive-color:     shade($black, 500) !default;
 $pagination-inactive-bg:        $gray-50 !default;
 $pagination-inactive-border:    $gray-100 !default;
 
