@@ -558,8 +558,8 @@ $top-menu-link:                 shade($brand-primary, 100) !default;
 $top-menu-link-hover:           shade($brand-primary, 50) !default;
 
 $header-bg:                     $brand-primary !default;
-$header-text:                   $black !default;
-$header-link:                   $black !default;
+$header-text:                   $white !default;
+$header-link:                   $white !default;
 $header-root:                   $brand-accent !default;
 $header-padding-vertical:       10px !default;
 $header-padding-horizontal:     $padding-side !default;
@@ -568,7 +568,7 @@ $header-title-line-height:      $line-height-computed * 1.5 !default;
 
 $responsive-header-height:      54px !default;
 
-$flyout-menu-bg:                shade($header-bg, 700) !default;
+$flyout-menu-bg:                red !default;
 $flyout-menu-text:              $white !default;
 $flyout-menu-link:              $white !default;
 $flyout-menu-link-active-bg:    shade($header-bg, 50) !default;
