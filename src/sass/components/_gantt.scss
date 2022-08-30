@@ -24,6 +24,10 @@ table.gantt-table {
   overflow: hidden;
   border: 1px solid $gray-500;
   text-align: center;
+  // stylelint-disable-line  no-eol-whitespace
+  a {
+    color: $black;
+  }
 
   &[style*="background"] {
     background: $gray-200 !important; // stylelint-disable-line declaration-no-important
