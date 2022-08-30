@@ -87,6 +87,10 @@
       border-radius: $border-radius-small;
       color: $pagination-color;
 
+      a {
+        color: $black;
+      }
+
       &:hover,
       &:focus {
         border-color: $pagination-hover-border;
