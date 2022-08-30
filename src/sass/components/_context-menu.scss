@@ -36,7 +36,11 @@
       color: $black;
 
       &.submenu {
-        color: red;
+        color: $black;
+      }
+
+      &.icon {
+        color: unset;
       }
 
       &::before {
