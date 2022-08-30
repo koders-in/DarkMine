@@ -33,6 +33,7 @@
       @extend %fa-icon;
       padding: 3px 10px 3px 20px;
       border-radius: $border-radius-small;
+      color: $black;
 
       &.submenu {
         color: red;
@@ -46,7 +47,8 @@
 
       &:hover {
         border-color: $pagination-hover-border;
-        background-color: $pagination-hover-bg;
+        background-color: #44475a;
+        color: $white;
       }
 
       &.disabled {
