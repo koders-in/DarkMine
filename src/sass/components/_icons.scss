@@ -333,11 +333,11 @@ a.icon-del {
   @extend %fa-icon;
 
   &:hover::before {
-    color: $gray-900;
+    color: $teal;
   }
 
   &.selected::before {
-    color: $gray-950;
+    color: $teal;
   }
 }
 
