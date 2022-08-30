@@ -552,12 +552,12 @@ $check-list-offset-top:         $input-padding-vertical + 1px;
 //== Top
 //
 
-$top-menu-bg:                   #6272a4 !default;
+$top-menu-bg:                   $brand-primary !default;
 $top-menu-text:                 shade($brand-primary, 100) !default;
 $top-menu-link:                 shade($brand-primary, 100) !default;
 $top-menu-link-hover:           shade($brand-primary, 50) !default;
 
-$header-bg:                     $brand-primary !default;
+$header-bg:                     #6272a4 !default;
 $header-text:                   $white !default;
 $header-link:                   $white !default;
 $header-root:                   $brand-accent !default;
