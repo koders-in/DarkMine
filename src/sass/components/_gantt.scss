@@ -25,7 +25,8 @@ table.gantt-table {
   border: 1px solid $gray-500;
   text-align: center;
   // stylelint-disable-line  no-eol-whitespace
-  a {
+  a,
+  small {
     color: $black;
   }
 
