@@ -805,7 +805,7 @@ $width-lg:                      $screen-lg - ($padding-side * 2) !default;
 // https://www.redmineup.com/pages/plugins/agile
 //
 
-$agile-board-background:        #44475a !default;
+$agile-board-background:        transparent !default;
 $agile-issue-card-margin:       8px 10px !default;
 $agile-issue-card-padding:      7px !default;
 $agile-issue-card-border:       $gray-500;
@@ -813,7 +813,7 @@ $agile-issue-card-border-width: 0 0 0 5px;
 $agile-issue-card-border-radius: $border-radius-large !default;
 $agile-issue-card-background:   $black !default;
 $agile-issue-card-color:        $white !default;
-$agile-issue-card-closed-background: $gray-300 !default;
+$agile-issue-card-closed-background: #44475a !default;
 $agile-issue-card-default-color-map: (
   bk-green: (
     border: $green,
