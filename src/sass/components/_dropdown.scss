@@ -105,6 +105,12 @@
     }
   }
 
+  span {
+    a {
+      color: $black;
+    }
+  }
+
   &:not(.journal-actions) > .drdn {
     &.expanded {
       > .drdn-trigger {
