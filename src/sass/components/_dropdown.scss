@@ -107,7 +107,7 @@
 
   span {
     a {
-      color: $black;
+      color: $black !important; // stylelint-disable-line declaration-no-important
     }
   }
 
