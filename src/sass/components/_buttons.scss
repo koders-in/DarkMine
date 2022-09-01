@@ -113,7 +113,7 @@ p.buttons,
   > a {
     border-color: $pagination-border;
     background-color: $pagination-bg;
-    color: $pagination-color;
+    color: $black !important; // stylelint-disable-line declaration-no-important
 
     &:first-child {
       margin-left: 0;
