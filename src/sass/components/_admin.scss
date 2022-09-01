@@ -12,6 +12,10 @@
         background-repeat: no-repeat;
         background-position: $sidebar-padding-horizontal center;
       }
+
+      a {
+        color: $white !important; // stylelint-disable-line declaration-no-important
+      }
     }
   }
 
