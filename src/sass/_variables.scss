@@ -506,7 +506,7 @@ $icon-color-map: (
 //== Highlights
 //
 
-$highlight-bg:                  shade($yellow, 200) !default;
+$highlight-bg:                  shade($black, 200) !default;
 $highlight-border:              shade($yellow, 600) !default;
 $highlight-text:                shade($yellow, 800) !default;
 $highlight-link:                mix($yellow, $link-color) !default;
