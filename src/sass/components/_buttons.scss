@@ -127,7 +127,7 @@ p.buttons,
     &:focus {
       border-color: $pagination-hover-border;
       background-color: $pagination-hover-bg;
-      color: $white;
+      color: $pagination-hover-color;
       text-decoration: none;
     }
   }
