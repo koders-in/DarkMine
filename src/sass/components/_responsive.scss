@@ -380,6 +380,7 @@ body {
 
     #content > .contextual > span {
       margin-bottom: 0;
+      color: $black !important; // stylelint-disable-line declaration-no-important
     }
 
     #content > .contextual > a,

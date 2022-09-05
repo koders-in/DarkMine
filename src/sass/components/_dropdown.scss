@@ -105,12 +105,6 @@
     }
   }
 
-  span {
-    a[acccesskey="p"] {
-      color: $black !important; // stylelint-disable-line declaration-no-important
-    }
-  }
-
   &:not(.journal-actions) > .drdn {
     &.expanded {
       > .drdn-trigger {
